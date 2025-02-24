@@ -1,4 +1,4 @@
-package com.frankmoley.lil.wisdompet;
+package com.pantelisgavalas.lil.wisdom_pet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class WisdomPetApplication {
 
-  public static void main(String[] args) {
-    SpringApplication.run(WisdomPetApplication.class, args);
-  }
+	public static void main(String[] args) {
+		SpringApplication.run(WisdomPetApplication.class, args);
+	}
 
 }
