@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae7de3d5-6d9d-440e-b1f5-a09c2106ab14" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../02_07/02_07b/spring-react/wisdom-pet/src/main/java/com/pantelisgavalas/lil/wisdom_pet/web/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_07/02_07b/spring-react/wisdom-pet/src/main/java/com/pantelisgavalas/lil/wisdom_pet/web/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/WisdomPetApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/entities/CustomerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/entities/ProductEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/entities/ServiceEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/entities/VendorEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/repositories/ServiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/repositories/VendorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/services/ServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/services/VendorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/errors/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/errors/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/models/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/models/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/models/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/models/Vendor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/rest/CustomerRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/main13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/test/java/com/frankmoley/lil/wisdompet/WisdomPetApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/test/test18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_08/02_08b/spring-react/wisdom-pet/src/ui/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/WisdomPetApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/entities/CustomerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/entities/ProductEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/entities/ServiceEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/entities/VendorEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/repositories/ServiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/data/repositories/VendorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/services/ServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/services/VendorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/errors/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/errors/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/models/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/models/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/models/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/models/Vendor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/java/com/frankmoley/lil/wisdompet/web/rest/CustomerRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/main18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/test/java/com/frankmoley/lil/wisdompet/WisdomPetApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/test/test5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_09/02_09b/spring-react/wisdom-pet/src/ui/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2tXDu3RcWSeY6eOBlLjkmxVNWsa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gavalas/Desktop/My_Coding/LinkedIn_Training/Java/Spring Boot with React/Exercise Files/CH02/02_07/02_07b/spring-react/wisdom-pet"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae7de3d5-6d9d-440e-b1f5-a09c2106ab14" name="Changes" comment="" />
+      <created>1740489745287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740489745287</updated>
+    </task>
+    <servers />
+  </component>
+</project>
