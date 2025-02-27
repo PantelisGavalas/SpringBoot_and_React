@@ -36,12 +36,14 @@ const Customers = () => {
     return (
         <table>
             <thead>
-                <th>ID</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Email Address</th>
-                <th>Phone Number</th>
-                <th>Address</th>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                    <th>Phone Number</th>
+                    <th>Address</th>
+                </tr>
             </thead>
             <tbody>
                 {customers.map(customer => {

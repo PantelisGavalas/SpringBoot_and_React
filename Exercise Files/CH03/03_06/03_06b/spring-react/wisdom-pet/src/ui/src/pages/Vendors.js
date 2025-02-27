@@ -17,12 +17,14 @@ const Vendors = () => {
     return (
         <table>
             <thead>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Contact</th>
-                <th>Phone Number</th>
-                <th>Email Address</th>
-                <th>Address</th>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Contact</th>
+                    <th>Phone Number</th>
+                    <th>Email Address</th>
+                    <th>Address</th>
+                </tr>
             </thead>
             <tbody>
                 {vendors.map(vendor => {

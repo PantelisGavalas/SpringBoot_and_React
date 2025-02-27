@@ -18,9 +18,11 @@ const Services = () => {
     return (
         <table>
             <thead>
-                <td>ID</td>
-                <td>Name</td>
-                <td>Price</td>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Price</td>
+                </tr>
             </thead>
             <tbody>
                 {services.map(service => {
