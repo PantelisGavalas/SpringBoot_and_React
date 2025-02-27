@@ -1,43 +1,28 @@
-import React, { useLayoutEffect, useState } from 'react';
-import { getCurrency } from '../Utils';
+import React, { useLayoutEffect, useState } from "react";
+import { getCurrency } from "../Utils";
 
 const Products = () => {
-    const [products, setProducts] = useState([])
-    const [vendors, setVendors] = useState(new Map())
-
-    const add = (key, value) => {
-        setVendors(prev => new Map([...prev, [key, value]]))
-    }
+    const [products, setProducts] = useState([]);
+    const [vendors, setVendors] = useState([]);
 
     useLayoutEffect(() => {
-        const getProducts = async() => {
-            const res = await fetch('/api/products')
-            const products = await res.json()
-            setProducts(products)
+        const getProducts = async () => {
+            const res = await fetch('api/products');
+            const products = await res.json();
+            setProducts(products);
         }
         const getVendors = async () => {
-            const res = await fetch('/api/vendors')
-            const vendors = await res.json()
-            vendors.map(vendor => {
-            const {
-                vendorId,
-                name,
-                contact,
-                emailAddress,
-                phoneNumber,
-                address,
-            } = vendor;
-            add(vendorId, vendor)
-            })
+            const res = await fetch('api/vendors');
+            const vendors = await res.json();
+            setVendors(vendors);
         }
         getProducts().catch(e => {
-            console.log("error fetching products: " + e)
-        });
+            console.log("error fetching products: " + e);
+        })
         getVendors().catch(e => {
             console.log("error fetching vendors: " + e)
         })
-        },[]
-    )
+    })
 
     return (
         <table>
@@ -46,24 +31,32 @@ const Products = () => {
                     <th>ID</th>
                     <th>Name</th>
                     <th>Price</th>
-                    <th>Vendor</th>
+                    <th>Vendor Name</th>
                 </tr>
             </thead>
             <tbody>
                 {products.map(product => {
                     const {
-                    productId,
-                    name,
-                    price,
-                    vendorId
+                        productId,
+                        name,
+                        price,
+                        vendorId
                     } = product;
+
+                    var vendorName = "";
+                    vendors.forEach(vendor => {
+                        if (vendor.vendorId === vendorId) {
+                            vendorName = vendor.name;
+                        }
+                    })
+
                     return (
-                    <tr key={product}>
-                        <td>{productId}</td>
-                        <td>{name}</td>
-                        <td>{getCurrency(price)}</td>
-                        <td>{vendors.get(vendorId).name}</td>
-                    </tr>
+                        <tr key={productId}>
+                            <td>{productId}</td>
+                            <td>{name}</td>
+                            <td>{getCurrency(price)}</td>
+                            <td>{vendorName}</td>
+                        </tr>
                     )
                 })}
             </tbody>
@@ -71,4 +64,4 @@ const Products = () => {
     )
 }
 
-export default Products;
+export default Products
