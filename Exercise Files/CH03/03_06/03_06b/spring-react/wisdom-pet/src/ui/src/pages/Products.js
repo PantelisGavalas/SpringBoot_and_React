@@ -1,8 +1,13 @@
 import React, { useLayoutEffect, useState } from "react";
+import { getCurrency } from "../Utils";
 
 const Products = () => {
     const [products, setProducts] = useState([]);
-    const [vendors, setVendors] = useState([]);
+    const [vendors, setVendors] = useState(new Map());
+    // function to add key-value pair to the vendors map
+    const add = (key, value) => {
+        setVendors(prev => new Map([...prev, [key, value]]));
+    }
 
     useLayoutEffect(() => {
         const getProducts = async () => {
@@ -13,7 +18,19 @@ const Products = () => {
         const getVendors = async () => {
             const res = await fetch('api/vendors');
             const vendors = await res.json();
-            setVendors(vendors);
+            // for each vendor, add to the map key:id value:vendor
+            // that way by the vendor id we can access the vendor and their name
+            vendors.map(vendor => {
+                const {
+                    vendorId, 
+                    name,
+                    contact,
+                    emailAddress,
+                    phoneNumber,
+                    adress,
+                } = vendor;
+                add(vendorId, vendor);
+            })
         }
         getProducts().catch(e => {
             console.log("error fetching products: " + e);
@@ -21,7 +38,7 @@ const Products = () => {
         getVendors().catch(e => {
             console.log("error fetching vendors: " + e)
         })
-    })
+    }, [])
 
     return (
         <table>
@@ -29,8 +46,7 @@ const Products = () => {
                 <th>ID</th>
                 <th>Name</th>
                 <th>Price</th>
-                <th>Vendor ID</th>
-                <th>Vendor Name</th>
+                <th>Vendor</th>
             </thead>
             <tbody>
                 {products.map(product => {
@@ -41,20 +57,12 @@ const Products = () => {
                         vendorId
                     } = product;
 
-                    var vendorName = "";
-                    vendors.forEach(vendor => {
-                        if (vendor.vendorId === vendorId) {
-                            vendorName = vendor.name;
-                        }
-                    })
-
                     return (
                         <tr key={productId}>
                             <td>{productId}</td>
                             <td>{name}</td>
-                            <td>{price}</td>
-                            <td>{vendorId}</td>
-                            <td>{vendorName}</td>
+                            <td>{getCurrency(price)}</td>
+                            <td>{vendors.get(vendorId).name}</td>
                         </tr>
                     )
                 })}

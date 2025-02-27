@@ -1,4 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
+import { getCurrency } from "../Utils";
 
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -33,7 +34,7 @@ const Services = () => {
                         <tr key={serviceId}>
                             <td>{serviceId}</td>
                             <td>{name}</td>
-                            <td>{price}</td>
+                            <td>{getCurrency(price)}</td>
                         </tr>
                     )
                 })}
